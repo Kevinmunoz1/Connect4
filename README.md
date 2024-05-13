@@ -4,19 +4,18 @@
 This Connect4 AI implementation allows you to play the classic Connect4 game against an AI, random player, or another human. The game is implemented in Python and utilizes advanced artificial intelligence techniques, including alpha-beta pruning and expectimax algorithms, to provide a challenging gaming experience.
 
 ## Features
-Multiple Player Types: Play against a sophisticated AI, a random decision-making player, or another human.
-Graphical User Interface: The game features a simple GUI built with Tkinter, allowing for easy interaction and gameplay.
-Configurable Time Limits: Set time limits for AI decision-making to ensure games progress smoothly without delays.
+- **Multiple Player Types**: Engage in gameplay against a sophisticated AI, a random decision-making player, or another human.
+- **Graphical User Interface**: Features a simple GUI built with Tkinter for easy interaction and seamless gameplay.
+- **Configurable Time Limits**: Set time limits for AI decision-making to ensure games progress smoothly without delays.
+
 ## Requirements
 To run this project, you need Python 3.x and the following libraries:
+- `numpy`
+- `tkinter`
+- `multiprocessing`
 
-numpy
-tkinter
-multiprocessing
-You can install the required packages using:
-
-bash
-Copy code
+You can install the required package using the following command:
+```bash
 pip install numpy
 
 ## Usage
