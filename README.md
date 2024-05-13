@@ -22,14 +22,16 @@ pip install numpy
 ## Usage
 To start the game, navigate to the project directory in your terminal and run:
 
-```bash
+```
+bash
 Copy code
 python Connect4.py ai human --time 60
 ```
 This command starts a game between an AI player and a human player with a 60-second time limit for AI moves.
 
 Command Line Arguments
-```player1: First player type (ai, random, human).
+```
+player1: First player type (ai, random, human).
 player2: Second player type (ai, random, human).
 ```
 --time: Optional. Time limit in seconds for AI moves. Default is 60 seconds.
