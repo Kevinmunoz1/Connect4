@@ -29,10 +29,11 @@ python Connect4.py ai human --time 60
 This command starts a game between an AI player and a human player with a 60-second time limit for AI moves.
 
 Command Line Arguments
-```player1: First player type (ai, random, human).```
-```player2: Second player type (ai, random, human).```
+```player1: First player type (ai, random, human).
+player2: Second player type (ai, random, human).
+```
 --time: Optional. Time limit in seconds for AI moves. Default is 60 seconds.
-Game Rules
+## Game Rules
 Connect4 is played on a vertical board with 7 columns and 6 rows. The players take turns dropping colored discs into the columns. The first player to form a horizontal, vertical, or diagonal line of four discs wins the game.
 
 ## Contributing
