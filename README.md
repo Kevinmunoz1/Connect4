@@ -1,6 +1,6 @@
 # Connect4
 
-Overview
+#Overview
 This Connect4 AI implementation allows you to play the classic Connect4 game against an AI, random player, or another human. The game is implemented in Python and utilizes advanced artificial intelligence techniques, including alpha-beta pruning and expectimax algorithms, to provide a challenging gaming experience.
 
 Features
